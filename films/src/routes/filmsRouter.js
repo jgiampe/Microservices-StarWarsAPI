@@ -3,7 +3,7 @@ const films = require("../data/films.json");
 
 const filmsRouter = Router();
 
-filmsRouter.get("/", (req, res) => {
+filmsRouter.get("/films", (req, res) => {
   res.status(200).json(films);
 });
 

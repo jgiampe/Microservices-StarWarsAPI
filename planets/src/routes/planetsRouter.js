@@ -3,7 +3,7 @@ const planets = require("../data/planets.json");
 
 const planetsRouter = Router();
 
-planetsRouter.get("/", (req, res) => {
+planetsRouter.get("/planets", (req, res) => {
   res.status(200).json(planets);
 });
 
